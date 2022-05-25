@@ -13,7 +13,6 @@ python init_db.py
 
 ## Using .env для настройки окружения
 ```
-FLASK_APP=app
 FLASK_ENV=development
 SECRET_KEY='your secret key'
 ```
@@ -21,4 +20,9 @@ SECRET_KEY='your secret key'
 ## Launch application using console
 ```bash
 python app.py
+```
+
+## Run app with docker-compose
+```bash
+docker-compose up
 ```
